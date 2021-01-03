@@ -1,0 +1,17 @@
+#main-ul{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: stretch;
+    height: 200px;
+    background-color: aquamarine;
+
+
+}
+
+li{
+    background-color: yellow;
+    display: block;
+    color: black;
+}
