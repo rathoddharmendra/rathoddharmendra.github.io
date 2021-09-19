@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <title>Dharmendra Rathod</title>
+</head>
+<body>
+  <div>
+    <nav>
+      <div>
+        <ul>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="text-center">
+      <h1> <i class="fad fa-layer-plus"></i> 2021 Resolutions:</h1>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Modal body text goes here.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Trigger the modal with a button -->
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+  <pre>
+    {
+      "Ample Sleep": ["You should feel good and not stretched","don't worry, sleep won't de-track you"],
+      "Do it": {
+                "Hurdles": ["Don't wait for IT to be perfect", "Procrastination"],
+                "Helpers": ["Do it whatever;", "Start"]
+      }
+      "Overall take care": {
+                "Body": {
+                        "Gym":"",
+                        "Health Issues": [""],
+                        
+                },
+                "Skills": [
+                          "Public Speaking",
+                          "Your Nature and over-carried burden",
+                          ""
+                ],
+                "Music":[
+                        "Dance",
+                        "Sing",
+                        "Enjoy"
+                ],
+                "Spiritual":[
+                            "Meditation",
+                            "Pooja & Viddhi",
+                            "Sanskrit"
+                ]
+
+      }
+  
+    }
+  </pre>
+
+  </div>
+  <script src="./js/index.js"></script>
+  <script>
+    $('#myModal').on('shown.bs.modal', function () {
+      $('#myInput').trigger('focus')
+    })
+  </script>
+</body>
+</html>
